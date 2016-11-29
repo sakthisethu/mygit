@@ -14,3 +14,10 @@ for links in soup.find_all("meta"):
 
 for links in soup.find_all("meta"):
 	print links.get("content")
+
+ 	s=soup.find_all("p")
+	
+for links in s:
+	print links.text
+
+
